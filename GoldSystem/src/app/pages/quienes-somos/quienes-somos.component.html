@@ -1,0 +1,36 @@
+<app-jumbotron>
+  <p class="text-white">
+    Somos una organización y parte de una red global de profesionales
+    entusiastas especializados en diversas ramas: finanzas, economía, relaciones
+    públicas y marketing. Un ferviente sentimiento comunitario puso nuestro
+    conocimiento al servicio de la comunidad, y nos impulsó a crear un ambicioso
+    pero esperanzador proyecto llamado Gold System.
+  </p>
+</app-jumbotron>
+
+<div class="row justify-content-center">
+  <div
+    class="col-md-6 col-lg-4 mb-5 mb-lg-0 mt-5"
+    *ngFor="let fundador of fundadores"
+  >
+    <div class="px-4">
+      <img
+        [src]="fundador.img"
+        class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+        style="width: 200px"
+      />
+      <div class="pt-4 text-center">
+        <div class="mt-3">
+          <h5 _ngcontent-c16="" class="title">
+            <span _ngcontent-c16="" class="d-block mb-1">{{
+              fundador.name
+            }}</span>
+          </h5>
+          <small _ngcontent-c16="" class="h6 text-muted">{{
+            fundador.cargo
+          }}</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,216 @@
+<app-jumbotron [showImage]="false">
+  <p class="logo-container text-center">
+    <img
+      src="./assets/img/img-home.png"
+      width="400px"
+      height="400px"
+      style="object-fit: contain"
+    />
+  </p>
+
+  <h1 class="text-white">¡Bienvenidos a Gold System!</h1>
+  <small class="text-white"
+    >Gracias por estar aquí!. Nos gustaría contarte de que se trata nuestro
+    proyecto solidario, cuáles son sus alcances y objetivos. Por otra parte
+    agradecemos que te intereses y dediques tu tiempo en leer y aprender sobre
+    nuestro trabajo, y finalmente evaluar la posibilidad de invertir en él.
+  </small>
+</app-jumbotron>
+
+<section>
+  <div class="container">
+    <div class="text-center">
+      <app-iframe-video
+        src="https://www.youtube.com/embed/4a7sQu5-uCE"
+        title="Video de presentación"
+      ></app-iframe-video>
+    </div>
+
+    <p class="text-center mt-5">
+      Gold System es un proyecto criptográfico global y multidisciplinario en
+      cuya esencia coexisten objetivos económicos y propósitos solidarios.
+      Probablemente te estés preguntando como ambos aspectos podrían confluir en
+      un mismo espacio. La respuesta a ello será desarrollada a continuación.
+    </p>
+
+    <p class="text-center font-weight-bold lead">
+      Te invitamos a nuestra gran "oferta inicial de exchange" donde podrás
+      comprar nuestro token a precio de <em>$0.10 USDT</em>.
+    </p>
+
+    <section class="text-center">
+      <img
+        src="./assets/img/gs10-home.jpeg"
+        alt="GS10"
+        height="300px"
+        width="100%"
+        style="object-fit: contain"
+      />
+      <a
+        class="btn my-4 btn-lg btn-outline-dark btn-icon mb-3 mb-sm-0 btn-min-width"
+        href="https://waves.exchange/trading/spot/EZ2A78e7t4beS69Lsz8W95QdZsbQV3KkKwXELdDoU8R8_USDT"
+        target="_blank"
+      >
+        <span class="btn-inner--text">Comprar Ahora</span>
+        <span class="btn-inner--icon align-top">
+          <i class="fas fa-wallet"></i>
+        </span>
+      </a>
+    </section>
+
+    <div
+      class="hide-on-init"
+      animateOnScroll
+      animationName="animate__animated animate__fadeIn"
+    >
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-12">
+          <div class="row row-grid">
+            <div class="col-lg-6">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+                  <div
+                    class="icon icon-shape icon-shape-primary rounded-circle mb-4"
+                  >
+                    <i class="fas fa-dollar-sign"></i>
+                  </div>
+                  <h6 class="text-primary text-uppercase">
+                    <strong
+                      >GS10 <br />
+                      La primera criptomoneda solidaria en el mundo</strong
+                    >
+                  </h6>
+                  <p class="description mt-3">
+                    En los últimos meses, la aguda crisis sanitaria, económica y
+                    social que azotaba nuestros países fue la base para inspirar
+                    un proyecto de negocio original que tendría sus orígenes en
+                    agosto de 2020, cuando un grupo de emprendedores de
+                    diferentes países latinoamericanos idearon la manera para
+                    beneficiar tanto a inversores del proyecto como a los más
+                    necesitados. En ese sentido, este es un proyecto impulsado
+                    por un fuerte deseo de contribuir a nuestra comunidad, sin
+                    descuidar las finanzas de nuestros inversores, quienes
+                    apuestan por un futuro próspero en términos financieros y
+                    sociales.
+                  </p>
+                  <a routerLink="/gs10" class="btn btn-primary mt-4">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+                  <div
+                    class="icon icon-shape icon-shape-success rounded-circle mb-4"
+                  >
+                    <i class="fas fa-hands-helping"></i>
+                  </div>
+                  <h6 class="text-success text-uppercase">Corporativo</h6>
+                  <p class="description mt-3">
+                    Nuestro propósito es convertirnos en una plataforma de
+                    educación para emprender en diferentes áreas como lo es el
+                    marketing digital y las finanzas. Un sistema en el cual sus
+                    miembros no solo reciban educación para su emprendimiento,
+                    sino que también sean apoyados con ayuda económica durante
+                    momentos difíciles o situaciones críticas (por ejemplo, en
+                    casos o situaciones de gastos médicos costosos, de desempleo
+                    o una situación de extrema marginación).
+                  </p>
+
+                  <div class="row justify-content-center">
+                    <a
+                      routerLink="/quienes-somos"
+                      class="col-8 btn btn-success mt-4"
+                      >¿Quienes somos?</a
+                    >
+                    <a routerLink="/misión" class="col-5 btn btn-success mt-4"
+                      >Misión</a
+                    >
+                    <a routerLink="/visión" class="col-5 btn btn-success mt-4"
+                      >Visión</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hero for FREE version -->
+<section class="section section-lg bg-gradient-default bg-image bg-image-home">
+  <h1 class="text-center title display-3 text-white mb-4">
+    Gold System
+    <span
+      class="line hide-on-init bg-white"
+      animateOnScroll
+      animationName="animate__animated animate__rotateInUpRight"
+    ></span>
+  </h1>
+  <!-- Background circles -->
+  <div class="container text-white text-justify">
+    <p
+      class="hide-on-init"
+      animateOnScroll
+      animationName="animate__animated animate__fadeInLeft"
+    >
+      Nuestra moneda digital la GS10 actualmente posee un valor accesible en el
+      mercado, pero gracias a las alianzas con negocios y empresas que
+      actualmente estamos realizando, en un futuro cercano podremos ver como su
+      cotización incrementa exponencialmente sus valores, fomentando su compra
+      en inversores de los cinco continentes (ya que estará publicitada en todo
+      el planeta) y llevando a dicha moneda a constituirse como una inversión
+      muy rentable con beneficios en el mediano y largo plazo. Lo mencionado
+      anteriormente posiciona claramente a la GS10 como una inversión segura e
+      inteligente para quienes comienzan a transitar su camino en el mundo de
+      las criptomonedas, pero también para quienes poseen experiencia previa en
+      este mundo. Por otra parte, como mencionábamos antes un porcentaje de esas
+      inversiones (20%) irán a un fondo solidario gestionado por la fundación
+      Gold System. Este “sistema de oro” tiene como objetivo utilizar esos
+      fondos para colaborar con alimentos y medicamentos en comunidades con
+      bajos recursos de América Latina. Queremos destacar que también existe la
+      opción de donación de fondos a la fundación para quienes no deseen
+      invertir en la criptomoneda GS10.
+    </p>
+    <p
+      class="hide-on-init"
+      animateOnScroll
+      animationName="animate__animated animate__fadeInLeft"
+    >
+      En síntesis, creemos que no existen límites para los proyectos impulsados
+      por la fuerza del corazón, por lo que apelamos a la predisposición y el
+      apoyo de las personas, pilares fundamentales para continuar impulsando
+      nuestro camino de continuo creciendo conforme a nuestras proyecciones
+      actuales y a futuro.
+    </p>
+    <p
+      class="hide-on-init"
+      animateOnScroll
+      animationName="animate__animated animate__fadeInLeft"
+    >
+      Es por ello que queremos invitarte a formar parte de nuestra comunidad, ya
+      sea conociendo nuestras propuestas, invirtiendo en nuestra criptomoneda,
+      haciendo donaciones para nuestra fundación, o simplemente difundiendo
+      nuestro mensaje y propósito, el cual, gracias a la visión y la solidaridad
+      presentes en nuestros pueblos, creemos que tarde o temprano inundará todos
+      los rincones de nuestra gran nación latinoamericana.
+    </p>
+  </div>
+
+  <!-- SVG separator -->
+  <div class="separator separator-bottom separator-skew zindex-100">
+    <svg
+      x="0"
+      y="0"
+      viewBox="0 0 2560 100"
+      preserveAspectRatio="none"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+    </svg>
+  </div>
+</section>

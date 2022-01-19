@@ -1,0 +1,8 @@
+.airdrop {
+  min-height: 100vh;
+  background: url(../../../assets/img/airdrop.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

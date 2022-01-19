@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+img {
+  max-width: 100%;
+}
+
+small {
+  font-size: 1rem !important;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder !important;
+  font-size: 1.5rem !important;
+}
+.btn-min-width {
+  min-width: 200px;
+}
+.section-hero {
+  min-height: 100vh !important;
+  margin-bottom: 1rem;
+}
+.animate__animated {
+  visibility: visible !important;
+}
+.hide-on-init {
+  visibility: hidden;
+}
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 10%;
+  height: 3px;
+  background-color: #5e72e4;
+}
+.bg-image {
+  position: relative;
+}
+.bg-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0.1;
+}
+
+.bg-image-home::after {
+  background: url(assets/img/inicio-1.jpeg) center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.bg-image-gs10::after {
+  background: url(assets/img/gs10-1.jpeg) center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.bg-image-fundacion:after {
+  background: url(assets/img/give-heart.jpg) center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.img-float {
+  width: 100%;
+  object-fit: cover;
+  float: left;
+  max-height: 300px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 760px) {
+  .img-float {
+    width: 300px;
+  }
+}
